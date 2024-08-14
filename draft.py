@@ -13,7 +13,7 @@ df_pick = pd.read_csv(r'Datasets/df_pick.csv')
 
 # ----------------------------------------IMAGENES------------------------------------------------#
 
-img_2= '\img\draft.jpg'
+img_2= '/img/draft.jpg'
 
 # -----------------------------------CONFIGURACIÓN DE LA PÁGINA-----------------------------------#
 
