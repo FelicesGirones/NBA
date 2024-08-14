@@ -12,9 +12,9 @@ import plotly.express as px
 
 # ----------------------------------------IMAGENES------------------------------------------------#
 
-img_1= '\img\floor.jpg'
-img_5= '\img\logo.jpg'
-gif_path = '\img\Gift.gif'
+img_1= 'img\floor.jpg'
+img_5= 'img\logo.jpg'
+gif_path = 'img\Gift.gif'
 
 # -----------------------------------CONFIGURACIÓN DE LA PÁGINA-----------------------------------#
 

@@ -16,12 +16,12 @@ import os
 
 # -------------------------------------------DATOS------------------------------------------------#
 
-df_player_stats = pd.read_csv(r'\Datasets\player_stats.csv')
-df_team_stats= pd.read_csv(r'\Datasets\team_stats.csv')
+df_player_stats = pd.read_csv(r'Datasets\player_stats.csv')
+df_team_stats= pd.read_csv(r'Datasets\team_stats.csv')
 
 # -------------------------------------------ARIMA------------------------------------------------#
 
-model_path = '\ARIMA_models'
+model_path = 'ARIMA_models'
 
 # -----------------------------------CONFIGURACIÓN DE LA PÁGINA-----------------------------------#
 
