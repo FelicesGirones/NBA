@@ -21,7 +21,7 @@ df_team_stats= pd.read_csv(r'C:\Users\sfeli\Documents\Upgradehub\DATA\NBA\Datase
 
 # -------------------------------------------ARIMA------------------------------------------------#
 
-model_path = r'C:\Users\sfeli\Documents\Upgradehub\DATA\NBA\ARIMA_models'
+model_path = '\ARIMA_models'
 
 # -----------------------------------CONFIGURACIÓN DE LA PÁGINA-----------------------------------#
 

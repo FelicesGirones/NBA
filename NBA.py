@@ -43,7 +43,7 @@ html_content = f"""
 <div style="display: flex; align-items: center; justify-content: center; margin-top: 20px;">
     <img src="data:image/gif;base64,{gif_base64}" style="width: 100px; height: auto; margin-right: 20px;"/>
     <h1 style='color: #FF6600; text-shadow: 2px 2px 4px rgba(0,0,0,0.3); font-size: 80px;'>
-        NBA Analysis
+        aba Analysis
     </h1>
 </div>
 """
