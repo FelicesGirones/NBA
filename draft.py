@@ -7,9 +7,9 @@ import plotly.graph_objects as go
 
 # -------------------------------------------DATOS------------------------------------------------#
 
-df_draft = pd.read_csv(r'\Datasets\draft_picks.csv')
-df_top_20_pick = pd.read_csv(r'\Datasets\top_20_pick.csv')
-df_pick = pd.read_csv(r'\Datasets\df_pick.csv')
+df_draft = pd.read_csv(r'/Datasets/draft_picks.csv')
+df_top_20_pick = pd.read_csv(r'/Datasets/top_20_pick.csv')
+df_pick = pd.read_csv(r'/Datasets/df_pick.csv')
 
 # ----------------------------------------IMAGENES------------------------------------------------#
 
