@@ -3,7 +3,7 @@ import streamlit as st
 
 # ----------------------------------------IMAGENES------------------------------------------------#
 
-img_4= r'C:\Users\sfeli\Documents\Upgradehub\DATA\NBA\img\map.png'
+img_4= '\img\map.png'
 
 # -----------------------------------CONFIGURACIÓN DE LA PÁGINA-----------------------------------#
 

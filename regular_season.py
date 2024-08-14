@@ -16,8 +16,8 @@ import os
 
 # -------------------------------------------DATOS------------------------------------------------#
 
-df_player_stats = pd.read_csv(r'C:\Users\sfeli\Documents\Upgradehub\DATA\NBA\Datasets\player_stats.csv')
-df_team_stats= pd.read_csv(r'C:\Users\sfeli\Documents\Upgradehub\DATA\NBA\Datasets\team_stats.csv')
+df_player_stats = pd.read_csv('\Datasets\player_stats.csv')
+df_team_stats= pd.read_csv('\Datasets\team_stats.csv')
 
 # -------------------------------------------ARIMA------------------------------------------------#
 

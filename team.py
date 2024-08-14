@@ -10,10 +10,10 @@ from sklearn.ensemble import RandomForestRegressor
 
 # -------------------------------------------DATOS------------------------------------------------#
 
-df_player_salary = pd.read_csv(r'C:\Users\sfeli\Documents\Upgradehub\DATA\NBA\Datasets\salary_2024.csv')
+df_player_salary = pd.read_csv('\Datasets\salary_2024.csv')
 
 # ----------------------------------------IMAGENES------------------------------------------------#
-img_3= r'C:\Users\sfeli\Documents\Upgradehub\DATA\NBA\img\ball.jpg'
+img_3= '\img\ball.jpg'
 
 # -----------------------------------CONFIGURACIÓN DE LA PÁGINA-----------------------------------#
 

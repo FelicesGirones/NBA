@@ -7,13 +7,13 @@ import plotly.graph_objects as go
 
 # -------------------------------------------DATOS------------------------------------------------#
 
-df_draft = pd.read_csv(r'C:\Users\sfeli\Documents\Upgradehub\DATA\NBA\Datasets\draft_picks.csv')
-df_top_20_pick = pd.read_csv(r'C:\Users\sfeli\Documents\Upgradehub\DATA\NBA\Datasets\top_20_pick.csv')
-df_pick = pd.read_csv(r'C:\Users\sfeli\Documents\Upgradehub\DATA\NBA\Datasets\df_pick.csv')
+df_draft = pd.read_csv('\Datasets\draft_picks.csv')
+df_top_20_pick = pd.read_csv('\Datasets\top_20_pick.csv')
+df_pick = pd.read_csv('\Datasets\df_pick.csv')
 
 # ----------------------------------------IMAGENES------------------------------------------------#
 
-img_2= r'C:\Users\sfeli\Documents\Upgradehub\DATA\NBA\img\draft.jpg'
+img_2= '\img\draft.jpg'
 
 # -----------------------------------CONFIGURACIÓN DE LA PÁGINA-----------------------------------#
 
