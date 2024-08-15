@@ -90,19 +90,19 @@ elif st.sidebar.button("Bibliography"):
 
 if st.session_state.module == 'Introduction':
     introduction.display()
-    st.sidebar.button("🔙 Volver a Inicio", on_click=lambda: setattr(st.session_state, 'module', 'home'))
+    st.sidebar.button("🔙 Return Home", on_click=lambda: setattr(st.session_state, 'module', 'home'))
 elif st.session_state.module == 'Draft':
     draft.display()
-    st.sidebar.button("🔙 Volver a Inicio", on_click=lambda: setattr(st.session_state, 'module', 'home'))        
+    st.sidebar.button("🔙 Return Home", on_click=lambda: setattr(st.session_state, 'module', 'home'))        
 elif st.session_state.module == 'Regular Season':
     regular_season.display()
-    st.sidebar.button("🔙 Volver a Inicio", on_click=lambda: setattr(st.session_state, 'module', 'home'))
+    st.sidebar.button("🔙 Return Home", on_click=lambda: setattr(st.session_state, 'module', 'home'))
 elif st.session_state.module == 'Craft your team':
     team.display()
-    st.sidebar.button("🔙 Volver a Inicio", on_click=lambda: setattr(st.session_state, 'module', 'home'))    
+    st.sidebar.button("🔙 Return Home", on_click=lambda: setattr(st.session_state, 'module', 'home'))    
 elif st.session_state.module == 'Bibliography':
     bibliography.display()
-    st.sidebar.button("🔙 Volver a Inicio", on_click=lambda: setattr(st.session_state, 'module', 'home'))      
+    st.sidebar.button("🔙 Return Home", on_click=lambda: setattr(st.session_state, 'module', 'home'))      
     
 if 'module' not in st.session_state:
     st.session_state.module = 'home'
