@@ -276,5 +276,5 @@ def display():
                 st.plotly_chart(fig)
         
         st.markdown("<p style='font-size:25px; color:#00CC99;'><strong>Conclusion</strong></p>",unsafe_allow_html=True)
-        st.write('Based on the results of the Mann-Whitney U test, the p-value is less than the significance level (0.05). Therefore, we do not find sufficient evidence to reject the null hypothesis for any of the performance metrics considered.')
+        st.write('Based on the results of the Mann-Whitney U test, the p-value is grater than the significance level (0.05). Therefore, we do not find sufficient evidence to reject the null hypothesis for any of the performance metrics considered.')
         st.write('Given that the results of the statistical tests show no significant differences between the two groups in any of the performance metrics, there is not enough evidence to reject the null hypothesis (H0). Therefore, we conclude that there are no significant differences in performance between players from American universities and the rest of the world.')    
